@@ -2,9 +2,11 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package.json ./
+COPY package*.json ./
 RUN npm install --omit=dev
 
 COPY . .
 
-CMD ["node", "/app/index.js"]
+RUN chmod +x /app/index.js
+
+CMD ["node", "index.js"]
