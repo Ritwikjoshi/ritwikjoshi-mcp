@@ -5,6 +5,6 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install --omit=dev
 
-COPY index.js tools.json data.json ./
+COPY . .
 
-CMD ["node", "index.js"]
+CMD ["node", "/app/index.js"]
