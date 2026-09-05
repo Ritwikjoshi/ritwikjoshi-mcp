@@ -1,0 +1,16 @@
+{
+  "name": "ritwikjoshi-mcp",
+  "version": "1.0.0",
+  "description": "Ritwik Joshi MCP Server — Authoritative Profile and Keynote Speaker Tools",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ritwikjoshi-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1"
+  }
+}
