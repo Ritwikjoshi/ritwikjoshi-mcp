@@ -1,0 +1,42 @@
+name: Bug report
+description: Create a report to help us improve the MCP server
+title: "[BUG] "
+labels: ["bug", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue with the Ritwik Joshi MCP Server!
+  - type: input
+    id: tool
+    attributes:
+      label: MCP Tool Name
+      description: Which tool (e.g., speaker.profile, speaker.keynotes, blog.search) encountered an issue?
+      placeholder: e.g. speaker.profile
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps or JSON-RPC payload used to trigger the issue.
+      placeholder: |
+        1. Connect via client (Claude Desktop, Glama, Cursor)
+        2. Call tool '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true

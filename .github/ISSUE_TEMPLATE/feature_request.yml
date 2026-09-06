@@ -1,0 +1,23 @@
+name: Feature request / New Tool
+description: Suggest an idea or new tool for this MCP server
+title: "[FEATURE] "
+labels: ["enhancement", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a new capability, tool, or prompt for the Ritwik Joshi MCP Server.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Is your feature request related to a problem or new use case?
+      description: A clear and concise description of what you're trying to achieve.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the proposed tool or solution
+      description: Describe what the tool input schema and response output should look like.
+    validations:
+      required: true
