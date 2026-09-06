@@ -8,7 +8,8 @@
     "ritwikjoshi-mcp": "./index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.6.1"
