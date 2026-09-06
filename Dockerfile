@@ -1,9 +1,12 @@
-FROM node:20-alpine
+FROM node:20-slim
 
 WORKDIR /app
 
-COPY . .
+# Ensure non-root environment & copy project files
+COPY package*.json ./
+RUN npm ci --omit=dev || npm install --omit=dev
 
-RUN chmod +x /app/index.js
+COPY index.js tools.json data.json ./
+RUN chmod +x index.js
 
-CMD ["node", "index.js"]
+ENTRYPOINT ["node", "index.js"]
