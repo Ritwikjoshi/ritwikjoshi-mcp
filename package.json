@@ -1,7 +1,7 @@
 {
   "name": "ritwikjoshi-mcp",
-  "version": "1.0.0",
-  "description": "Ritwik Joshi MCP Server — Authoritative Profile and Keynote Speaker Tools",
+  "version": "1.0.2",
+  "description": "Ritwik Joshi MCP Server v1.0.2 — Authoritative Profile and Keynote Speaker Tools",
   "type": "module",
   "main": "index.js",
   "bin": {
