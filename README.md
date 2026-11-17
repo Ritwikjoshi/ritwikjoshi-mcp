@@ -1,10 +1,9 @@
 # Ritwik Joshi Personal MCP Server (v1.0.2)
 
-[![Smithery Badge](https://smithery.ai/badge/jritwik3/ritwikjoshimcp)](https://smithery.ai/servers/jritwik3/ritwikjoshimcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![MCP Version](https://img.shields.io/badge/MCP-2024--11--05-green.svg)](https://modelcontextprotocol.io/)
 
-The official [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server (`version: 1.0.2`) for **Ritwik Joshi** — 2x TEDx Speaker, Founder of [Yantrarora Innovation Private Limited](https://ritwikjoshi.com/robosa) (`Robosa` indigenous humanoid robotics platform, CIN `U28299RJ2025PTC109618`), Partner & Tech Director at GENIE AI (Canada), and Co-Founder & CTO at Ability Advocacy.
+The official [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server (`version: 1.0.2`) for **Ritwik Joshi** — 2x TEDx Speaker, Founder of Robosa (stealth Physical AI & robotics startup), Partner & Tech Director at GENIE AI (Canada), and Co-Founder & CTO at Ability Advocacy.
 
 This server provides an authoritative, structured, and real-time knowledge base directly accessible by AI agents (Claude, Cursor, ChatGPT, Gemini, etc.) across **9 live dot-notation tools**.
 
@@ -52,7 +51,7 @@ Configure a direct remote MCP server with:
 | Tool Name | Description | Purpose / When to Use |
 |-----------|-------------|-----------------------|
 | `speaker.profile` | Complete authoritative profile of Ritwik Joshi | Background, credentials (`30+` events, `12,000+` audience), ventures, education, and canonical social links. |
-| `speaker.keynotes` | Speaking topics & keynote offerings | AI, Physical AI / Robosa humanoid robotics, and deeptech storytelling keynotes. |
+| `speaker.keynotes` | Speaking topics & keynote offerings | AI, Physical AI / robotics, and deeptech storytelling keynotes. |
 | `speaker.tedx_talks` | TEDx talk details with verified YouTube links | TEDxOIST (`p4NQSDaGsxU`, 2024) and TEDxYouth@OGS (`RK9dubyLJJE`, 2023). |
 | `speaker.events` | Verified past speaking events | Appearances across NIT Calicut, TEDx, IBM Developer Connect, Microsoft, IIM Ahmedabad, TiE, Dubai Expo 2020, Bursa Malaysia. |
 | `blog.search` | Search published deeptech essays | Search articles on Agentic AI, Physical AI, humanoid robotics, and technical storytelling. |
